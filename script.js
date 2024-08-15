@@ -31,7 +31,7 @@ function addSecond(){
         content.classList.remove("solid");
         content.classList.add("fading");
         timer.innerHTML = `Timer: ${timeRemaining}`;
-        timer2.innerHTML = `Time Remaining: ${timeLeft}`;
+        timer2.innerHTML = `Time Remaining: ${timeLeft} Seconds`;
         if (timeRemaining < 0) {
             clear();
             alert("Sorry, your time has expired!");
@@ -67,5 +67,4 @@ function finish(){
     alert("Congrats! You're one step closer to achieving your goals :)");
     content.classList.remove("fading");
     content.classList.add("solid");
-    document.getElementById("content").contentEditable = "false";
 }

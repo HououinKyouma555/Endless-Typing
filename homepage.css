@@ -92,8 +92,14 @@ p {
 
 .subtext {
     text-decoration-line: underline;
-    color:#444;
-    font-size: 12;
+    font-weight: bold;
+    color: coral;
+    background-color: lightblue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
     margin-left: 60px;
 }
 
@@ -107,6 +113,11 @@ span {
     clear: both;
     font-size: 36px;
     margin-top: 150px;
+}
+
+.heading3 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
