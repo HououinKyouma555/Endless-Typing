@@ -88,6 +88,23 @@ h1 {
 
 p {
     clear: both;
+    line-height: 2;
+}
+
+.about {
+    width: 90%;
+    margin-inline: auto;
+    background-color: rgba(255, 255, 255, 0.308);
+    padding: 20px;
+    border-color: black;
+    border: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#About-us {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .subtext {
