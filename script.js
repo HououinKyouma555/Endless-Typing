@@ -21,6 +21,7 @@ function setTime(){
     document.getElementById('content').contentEditable = "true";
     title.innerHTML = "Begin Writing";
     begin = true;
+    timer2.innerHTML = `Time Remaining: ${timeLeft}`;
 }
 
 function addSecond(){
