@@ -1,0 +1,1 @@
+This is my attempt at making Endless Typing into a website

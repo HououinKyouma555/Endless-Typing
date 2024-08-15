@@ -1,0 +1,157 @@
+:root {
+    background-image: linear-gradient(lightcoral, lightskyblue);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+
+}
+
+header {
+    background-color: lightseagreen;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+
+nav a:hover::before {
+    width: 100%
+}
+
+h1 {
+    font-family: "Victor Mono";
+    font-size: 48px;
+    position: relative;
+}
+
+.title {
+    float: left;
+}
+
+.title-container {
+    background-color: white;
+    width: 100%;
+}
+
+p {
+    clear: both;
+}
+
+.subtext {
+    text-decoration-line: underline;
+    color:#444;
+    font-size: 12;
+    margin-left: 60px;
+}
+
+span {
+    color: tomato;
+    background-color: white;
+
+}
+
+.subheading {
+    clear: both;
+    font-size: 36px;
+    margin-top: 150px;
+}
+
+button {
+    font-size: 36px;
+    background-color: white;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+button:hover{
+    background-color: pink;
+}
+
+.image-box {
+    background-color: white;
+    outline: solid;
+    outline-color: #000;
+    border-radius: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+}
+
+#box1 {
+    margin-inline: auto;
+}
+
+#box3 {
+    margin-inline: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
