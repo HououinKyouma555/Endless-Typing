@@ -10,8 +10,6 @@
 </head>
 <body>
 
-
-
     <header>
         <div class="container">
             <a href="homepage.html" target="_blank">
@@ -34,13 +32,16 @@
 
     <div class="container">
         <div class="heading">
-            <h4 id="title">Begin Writing</h4>
-            <h4 id="timer">Time: 5</h4>
+            <h4 id="title">Set Time to Begin</h4>
+            <h4 id="timer">Timer: 5</h4>
         </div>
 
-        <div id="content" contenteditable="true" spellcheck="false" class="solid"></div>
+        <div id="content" contenteditable="false" spellcheck="false" class="solid"></div>
 
     </div>
+
+    <button id="set-time">Click to set time limit</button>
+    <h4 id="timer2">Time Remaining: 0</h4>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
